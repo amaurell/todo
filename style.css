@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  background: rgb(240, 241, 241);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  margin: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 250px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.texto {
+  width: 100px;
+  background: grey;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+li {
+  padding: 5px;
+  width: 280px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+#btn-inclui {
+  background: green;
+  color: cornsilk;
+  border: none;
+  padding: 7px;
+}
+.btn-apagar {
+  background: red;
+  color: honeydew;
+  margin-left: 50px;
+}
+input {
+  width: 300px;
+  padding: 5px;
+  border: 2px solid black;
+}
+#btn-limpaTarefas {
+  background: blueviolet;
+  color: white;
+  width: 50%;
+}
